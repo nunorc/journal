@@ -1,0 +1,17 @@
+$for(posts)$
+  <div style="margin-top: 40px; margin-bottom: 40px; line-height: normal;">
+	<span style="margin: 0px; font-size: 18px;">
+	  <span>$date$</span>
+	  $if(author)$
+		<span>by $author$</span>
+	  $endif$
+	</span>
+    <span style="margin-left: 5px; margin-right: 5px;">•</span>
+	<span style="margin: 0px; font-size: 18px;">$tags$</span>
+<br>
+	<span style="margin: 0px; font-size: 2.92rem;">
+	  <a href="$url$">$title$</a>
+	</span><br>
+  </div>
+$endfor$
+

@@ -1,0 +1,17 @@
+<div class="post">
+  <article>
+    <header style="padding-bottom: 4px; margin-top: 10px;">
+      <div class="row" style="font-size: 18px;">
+        <div class="col s12 right-align">
+          $if(author)$
+            <span class="author">by $author$ on </span>
+          $endif$
+          <span class="date">$date$</span>
+          <span style="margin-left: 5px; margin-right: 5px;">•</span>
+          <span class="date">$tags$</span>
+        </div>
+      </div>
+    </header>
+    $body$
+  </article>
+</div>
