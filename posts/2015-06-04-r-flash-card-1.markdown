@@ -19,3 +19,7 @@ List functions:
 
 	> ls()
 
+Clear your environment:
+
+    > rm(list = ls(all = TRUE))
+
