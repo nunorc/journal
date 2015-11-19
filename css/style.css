@@ -43,3 +43,6 @@ a:visited { color: #616161; }
 a:hover { color: #26a69a; }
 a:active { color: #26a69a; }
 
+pre code.hljs { display: block; }
+code.hljs { display: inline; }
+
