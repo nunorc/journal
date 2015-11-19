@@ -3,7 +3,7 @@ title: Overloading Operators
 tags: Haskell
 ---
 
-Let's say we have defined a type to store pairs of something of type 'a':
+Let's say we have defined a type to store pairs of type `a` as:
 
     data Pair a = Pair a a deriving (Eq, Show)
 
